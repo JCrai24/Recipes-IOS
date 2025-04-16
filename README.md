@@ -66,8 +66,6 @@ Recipe App for Take Home Assignment
     
     I believe that what I have created is perfectly set up for a feature that allows users to download and save favorite recipes for offline use. 
 
-    I hope I didn't take too long to turn in this take home assignment. I am juggling quite alot at the moment.
-
     Even if I don't advance in the interviewing process, I learned way more about software engineering doing this assignment than any Leetcode question 
     I have ever done. So, thank you. 
     
