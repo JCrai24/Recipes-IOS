@@ -1,13 +1,13 @@
 //
-//  RecipesUITests.swift
-//  RecipesUITests
+//  UIRecipeTests.swift
+//  RecipesTests
 //
-//  Created by Jacob Craig on 4/12/25.
+//  Created by Jacob Craig on 4/15/25.
 //
 
 import XCTest
 
-final class RecipesUITests: XCTestCase {
+final class UIRecipeTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
