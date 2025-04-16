@@ -1,0 +1,5 @@
+# Xcode user settings to ignore
+*.xcuserstate
+*.xcuserdata/
+*.xcscheme
+.DS_Store
