@@ -4,16 +4,19 @@ Recipe App for Take Home Assignment
 
 ### Summary: Include screen shots or a video of your app highlighting its features
     
-  ![simulator_screenshot_D81B43EA-CE73-419C-BAD5-CEB01BA7EC7D](https://github.com/user-attachments/assets/f13f575c-414e-4850-97b5-9c4d7441fec3)
-  ![simulator_screenshot_3004EBB0-FDFF-4586-8D99-3B6E9389E0F3](https://github.com/user-attachments/assets/055c27a6-59ea-42ed-a7c5-3108a6b287a3)
-  ![simulator_screenshot_C2BC1044-C9C3-4734-AF31-BD861C8DD713](https://github.com/user-attachments/assets/65ecbe2c-ea59-4ccf-a980-34392d1b35b8)
+ <img src="https://github.com/user-attachments/assets/f13f575c-414e-4850-97b5-9c4d7441fec3" width="300" />
+ <img src="https://github.com/user-attachments/assets/055c27a6-59ea-42ed-a7c5-3108a6b287a3" width="300" />
+ <img src="https://github.com/user-attachments/assets/65ecbe2c-ea59-4ccf-a980-34392d1b35b8" width="300" />
+
 
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 
     I chose to prioritize code structure and maintainability without too much additional fluff -> 
-    I value performance as long as issues are mimimal and easy to fix. I also focused on applying the
-    downloading and caching of images without affecting the performance of the UI. 
+    I value performance as long as issues are mimimal and easy to fix. 
+    
+    I also focused on applying the downloading and caching of images without affecting the performance of the UI. 
+    
     
 
 ### Time Spent: Approximately how long did you spend working on this project? How did you allocate your time?
@@ -38,22 +41,36 @@ Recipe App for Take Home Assignment
 
 ### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
 
-    I focused on the core use case without creating many extra features. I kept the UI simple
+    I considered precaching/loading images and using a loading screen, but instead opted to download/cache them when the image is needed. This means
+    that it may take longer for certain images to load, but the recipes list page is much quicker and much more responsive. It is also more scalable 
+    for much larger lists of recipes.
+    
+    I focused on the core use case without creating alot of extra features. I kept the UI simple
     and focused on minimizing errors and trying to make the loading of the recipes as clean 
-    and smooth as possible.
+    and smooth as possible. 
     
-    Using the file-manager for both large and small images could potentially lead to bulky storage,
-    but is effective in improving performance in the short term. 
+    Using on disk storage for both large and small images could potentially lead to a slighly bulkier storage,
+    but makes the UI experience much more responsive and smooth. 
     
-    
+
     
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
     
     Minimal UI and lack of additional features. 
     I am not an expert in writing unit tests. 
-    Search feature does not handle clearing of filter without complete reload.
+    Search feature does not handle clearing of filter without reload of list
     
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
 
-    I have a lot going on at the moment and was not able to start this until today. I hope I am not too late.
+    If had more time to work on this, I would have considered expiration and management of image files on the disk to optimize storage
+    
+    I believe that what I have created is perfectly set up for a feature that allows users to download and save favorite recipes for offline use. 
+
+    I hope I didn't take too long to turn in this take home assignment. I am juggling quite alot at the moment.
+
+    Even if I don't advance in the interviewing process, I learned way more about software engineering doing this assignment than any Leetcode question 
+    I have ever done. So, thank you. 
+    
+    
+    
 
